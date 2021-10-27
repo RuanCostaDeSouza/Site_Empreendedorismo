@@ -55,6 +55,7 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     padding-top: 30px;
+    height: 900px;
 }
 .segundoGrupo{
     width: 100%;
@@ -79,30 +80,24 @@ ul {
     padding: 30px;
 }
 .itensPrimeiroGrupoUm{
-    width: 45%;
-    height:400px;
-    background-image: linear-gradient(to left, #0b2f44,#0f4768 60%);
+    width: 30%;
+    height:700px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 10px 5px 5px #0f4768;
+   
     align-items: center;
-    border: 2px solid black;
 }
 .itensPrimeiroGrupoDois{
-    width: 45%;
-    height:400px;
-    background-image: linear-gradient(to left, #0b2f44,#0f4768 60%);
+    width: 50%;
+    height:600px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 5px;
-    border-radius: 10px;
-    box-shadow: 10px 5px 5px #0f4768;
     align-items: center;
-    border: 2px solid black
 }
 .itensPrimeiroGrupoTres{
     width: 30%;
@@ -124,7 +119,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content:center;
-    align-items:flex-start;
+    align-items:center;
     color: white;
 }
 .itensSegundoGrupoDois{
@@ -224,4 +219,67 @@ html{
 }
 #slider img.selected{
     opacity: 1;
+}
+.quadradinho1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.quadradinho2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40% ;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #191970;
+    border: 1px solid black;
+    padding: 10px;
+}
+.img2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40% ;
+    height: 100%;
+    border-radius: 8px;
+    background-color:#4B0082;
+    border: 1px solid black;
+    padding: 10px;
+}
+.img3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40% ;
+    height: 100%;
+    border-radius: 8px;
+    background-color:#1E90FF;
+    border: 1px solid black;
+    padding: 10px;
+}
+.img4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40% ;
+    height: 100%;
+    border-radius: 8px;
+    background-color:#008080;
+    border: 1px solid black;
+    padding: 10px;
 }
