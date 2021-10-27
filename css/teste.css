@@ -22,7 +22,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0);
+    background-color: #111010;
 }
 .menu{
     display: flex;
@@ -33,7 +33,7 @@ ul {
 }
 .corpoPrincipal{
     width: 80%;
-    background-color: rgb(255, 255, 255);
+    background-color: none;
     margin:-1px auto 10px;
     margin-top: 20px;
     display: flex;
@@ -79,65 +79,58 @@ ul {
     padding: 30px;
 }
 .itensPrimeiroGrupoUm{
-    width: 30%;
-    height:100%;
-    background-color: rgb(245,222,179);
+    width: 45%;
+    height:400px;
+    background-image: linear-gradient(to left, #0b2f44,#0f4768 60%);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px #0f4768;
     align-items: center;
+    border: 2px solid black;
 }
 .itensPrimeiroGrupoDois{
-    width: 30%;
-    height:100%;
-    background-color: rgb(245,222,179);
+    width: 45%;
+    height:400px;
+    background-image: linear-gradient(to left, #0b2f44,#0f4768 60%);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px #0f4768;
     align-items: center;
+    border: 2px solid black
 }
 .itensPrimeiroGrupoTres{
     width: 30%;
-    height:100%;
-    background-color: rgb(245,222,179);
+    height:400px;
+    background-image: linear-gradient(to left, #0b2f44,#0f4768 60%);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px;
     border-radius: 10px;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 5px #0f4768;
     align-items: center;
+    border: 2px solid black
 }
 .itensSegundoGrupoUm{
     width: 40%;
-    height: 400px;
-    background-color: yellow;
+    height: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    color: white;
 }
 .itensSegundoGrupoDois{
     width: 40%;
-    height: 400px;
-    background-color: tomato;
-}
-.itensTerceiroGrupoUm{
-    width: 30%;
-    height: 200px;
-    background-color: rgb(255, 255, 255);
-}
-.itensTerceiroGrupoDois{
-    width: 30%;
-    height: 200px;
-    background-color: rgb(255, 255, 255);
-}
-.itensTerceiroGrupoTres{
-    width: 30%;
-    height: 200px;
-    background-color: rgb(255, 255, 255);
+    height: 100%;
+    
 }
 .baner{
     display: flex;
@@ -145,17 +138,15 @@ ul {
     justify-content: space-around;
     padding: 20px;
     height: 800px;
-    background-image:radial-gradient( circle,#1779b3,#fff);
+    background-color: none;
 }
 .textoBaner{
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  
+    color: #fff;
     gap: 100px;
-    
-
 }
 #principalProduto{
     display: flex;
@@ -163,4 +154,74 @@ ul {
     justify-content: flex-start;
     margin-top: 10px;
     width: 100%;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 60Px;
+}
+html{
+    background-image:radial-gradient( circle,#1779b3,#0f4768,#0b2f44,#041c2a,#111010 56%);
+}
+#tituloEspecialidades{
+    color: #fff;
+}
+.itensPrimeiroGrupoUm p{
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+.itensPrimeiroGrupoDois p{
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+.itensPrimeiroGrupoTres p{
+    font-size: 23px;
+    color: white;
+    padding: 20px;
+}
+.itensPrimeiroGrupoUm h3{
+    font-size: 25px;
+    color: white;
+}
+.itensPrimeiroGrupoDois h3{
+    font-size: 25px;
+    color: white;
+}
+.itensPrimeiroGrupoTres h3{
+    font-size: 25px;
+    color: white;
+}
+.footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#box{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+}
+#slider{
+    width: 90%;
+    max-width: 1080px;
+    height: 400vw;
+    max-height: 400px;
+
+    position: relative;
+}
+#slider img{
+    opacity: 0;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transition: opacity 600ms;
+}
+#slider img.selected{
+    opacity: 1;
 }
