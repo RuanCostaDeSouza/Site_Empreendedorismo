@@ -242,10 +242,14 @@ html{
     flex-direction: column;
     width: 40% ;
     height: 100%;
+    max-height: 250px;
     border-radius: 8px;
     background-color: #191970;
     border: 1px solid black;
     padding: 10px;
+}
+.img1 img{
+    margin-top: 30px;
 }
 .img2{
     display: flex;
@@ -254,10 +258,14 @@ html{
     flex-direction: column;
     width: 40% ;
     height: 100%;
+    max-height: 250px;
     border-radius: 8px;
     background-color:#4B0082;
     border: 1px solid black;
     padding: 10px;
+}
+.img2 img{
+    margin-top: 30px;
 }
 .img3{
     display: flex;
@@ -266,10 +274,14 @@ html{
     flex-direction: column;
     width: 40% ;
     height: 100%;
+    max-height: 250px;
     border-radius: 8px;
     background-color:#1E90FF;
     border: 1px solid black;
     padding: 10px;
+}
+.img3 img{
+    margin-top: 40px;
 }
 .img4{
     display: flex;
@@ -278,8 +290,12 @@ html{
     flex-direction: column;
     width: 40% ;
     height: 100%;
+    max-height: 250px;
     border-radius: 8px;
     background-color:#008080;
     border: 1px solid black;
     padding: 10px;
+}
+.img4 img{
+    margin-top: 20px;
 }
